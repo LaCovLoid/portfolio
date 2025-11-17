@@ -6,8 +6,9 @@
 
 > Vue3
 > Vite
-> scss
 > TypeScript
+> scss
+> pinia
 
 ### 시니어 개발자에 공백기도 많지만 최대한 노력을 다해보았습니다.
 
