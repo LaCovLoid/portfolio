@@ -1,5 +1,7 @@
-# Vue 3 + TypeScript + Vite
+# portfolio 사이트
 
-### 1password 클론코딩
+## 사용 툴
 
-### figma url : https://www.figma.com/design/x7eRFtwcyo1BS17UGLAqSe/Untitled?node-id=0-1&p=f&t=TyC0L1aln2CRDh7c-0
+> > Vue 3 + TypeScript + Vite
+
+### 시니어 개발자에 공백기도 많지만 최대한 노력을 다해보았습니다.
