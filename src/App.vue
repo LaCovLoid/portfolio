@@ -10,15 +10,15 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
 import { RouterView } from 'vue-router';
-import { ref, onBeforeUnmount } from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 
+import { onMounted } from 'vue';
+import { ref, onBeforeUnmount } from 'vue';
 import { useThemeStore } from './stores/theme';
-const themeStore = useThemeStore();
 
+const themeStore = useThemeStore();
 const isHeaderHidden = ref(false);
 let lastScroll = 0;
 
@@ -42,21 +42,10 @@ onBeforeUnmount(() => {
 });
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use '@/global.scss' as *;
 
 .header {
-  height: 60px;
-  width: 100%;
-  position: fixed;
-  transition: transform 0.3s ease;
-  z-index: 100;
-  top: 0;
-  left: 0;
-
-  @include minimize {
-    height: 100px;
-  }
 }
 .header.headerHidden {
   transform: translateY(-100%);

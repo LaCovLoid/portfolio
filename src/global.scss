@@ -10,24 +10,27 @@ $black-color: #000000;
   }
 }
 
-/* global.scss (혹은 다른 전역 스타일 파일) */
+// 초기 기본 색
 :root {
-  /* 기본 (light) 테마 색상 */
   --color-background: #ffffff;
-  --color-text: #1a1a1a;
-  --color-header: #f0f0f0;
+  --color-text: #000000;
+  --color-header: #c2d2da;
+  --color-border: #575252;
+  --color-toggle-bg: #dddddd;
+  --locate-toggle: -80%;
 }
 
 .theme-dark {
-  /* theme-dark 클래스가 적용될 때 변수 재정의 */
-  --color-background: #1a1a1a;
+  --color-background: #2c2c2c;
   --color-text: #ffffff;
-  --color-header: #2c2c2c;
+  --color-header: #4f4f4f;
+  --color-border: #ffffff;
+  --color-toggle-bg: #888888;
+  --locate-toggle: 80%;
 }
 
-/* 실제 적용 */
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  transition: all 0.3s ease; /* 전환 효과 */
+  transition: all 0.3s ease;
 }
