@@ -23,12 +23,7 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-:root {
-  color-scheme: light dark;
-}
-
 .home-container {
-  background-color: light-dark();
   .temp {
     opacity: 0;
     transform: translateX(40px);

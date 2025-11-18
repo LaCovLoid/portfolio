@@ -13,10 +13,10 @@
 import { onMounted } from 'vue';
 import { RouterView } from 'vue-router';
 import { ref, onBeforeUnmount } from 'vue';
-import { useThemeStore } from './stores/theme';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 
+import { useThemeStore } from './stores/theme';
 const themeStore = useThemeStore();
 
 const isHeaderHidden = ref(false);
