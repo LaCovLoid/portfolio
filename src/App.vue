@@ -45,8 +45,9 @@ onBeforeUnmount(() => {
 <style lang="scss">
 @use '@/global.scss' as *;
 
-.header {
+body {
 }
+
 .header.headerHidden {
   transform: translateY(-100%);
 }

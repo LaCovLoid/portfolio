@@ -12,7 +12,7 @@ $black-color: #000000;
 
 // 초기 기본 색
 :root {
-  --color-background: #ffffff;
+  --color-background: #f6fdff;
   --color-text: #000000;
   --color-header: #c2d2da;
   --color-border: #575252;
@@ -21,16 +21,10 @@ $black-color: #000000;
 }
 
 .theme-dark {
-  --color-background: #2c2c2c;
+  --color-background: #2e3031;
   --color-text: #ffffff;
   --color-header: #4f4f4f;
   --color-border: #ffffff;
   --color-toggle-bg: #888888;
   --locate-toggle: 80%;
-}
-
-body {
-  background-color: var(--color-background);
-  color: var(--color-text);
-  transition: all 0.3s ease;
 }

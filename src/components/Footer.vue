@@ -1,7 +1,6 @@
 <template>
   <div class="footer-container">
-    Footerasdads
-    <div class="babo">babobabo</div>
+    <div class="babo"></div>
   </div>
 </template>
 
@@ -9,8 +8,6 @@
 
 <style lang="scss" scoped>
 .footer-container {
-  height: 1500px;
-  display: block;
   background-color: #bfbfbf;
 
   .babo {
